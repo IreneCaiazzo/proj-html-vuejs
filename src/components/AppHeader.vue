@@ -4,21 +4,27 @@
 
 <template>
     <header>
-        <div class="logo">
-            <img src="../../img/avada-law-logo.png" alt="">
+
+        <div class="container">
+            <div class="logo">
+                <img src="../../img/avada-law-logo.png" alt="">
+            </div>
+
+            <ul class="navbar">
+                <li>Home</li>
+                <li>Who We Are</li>
+                <li>What We Do</li>
+                <li>Where We Work</li>
+                <li>Careers</li>
+                <li>News</li>
+                <li>Contact</li>
+            </ul>
         </div>
 
-        <font-awesome-icon icon="fa-brands fa-square-instagram" />
+        <div class="jumbo">
 
-        <div class="navbar">
-            <h2 class="text-primary">Home</h2>
-            <h2>Who We Are</h2>
-            <h2>What We Do</h2>
-            <h2>Where We Work</h2>
-            <h2>Careers</h2>
-            <h2>News</h2>
-            <h2>Contact</h2>
         </div>
+
     </header>
 </template>
 
@@ -30,14 +36,28 @@
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8rem;
+    margin: auto;
 }
 
-img {
-    width: 100px;
-    height: 100px;
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
 
+li {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.jumbo {
+    height: 38rem;
+    background-image: url('../../img/video_law_home_preview.jpg');
+    background-position: center;
 }
 </style>
