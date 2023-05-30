@@ -12,15 +12,14 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faCheck } from '@fortawesome/free-solid-svg-icons'
-import { faSquareFacebook } from '@fortawesome/free-solid-svg-icons'
-import { faSquareTwitter } from '@fortawesome/free-solid-svg-icons'
-import { faSquareInstagram } from '@fortawesome/free-solid-svg-icons'
-import { faSquareYoutube } from '@fortawesome/free-solid-svg-icons'
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faCheck, faSquareFacebook, faSquareTwitter, faSquareInstagram, faSquareYoutube, faChevronUp)
+library.add(fas)
+library.add(far)
+library.add(fab)
 
 
 

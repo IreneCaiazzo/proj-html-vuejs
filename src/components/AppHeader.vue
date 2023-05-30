@@ -8,8 +8,10 @@
             <img src="../../img/avada-law-logo.png" alt="">
         </div>
 
+        <font-awesome-icon icon="fa-brands fa-square-instagram" />
+
         <div class="navbar">
-            <h2>Home</h2>
+            <h2 class="text-primary">Home</h2>
             <h2>Who We Are</h2>
             <h2>What We Do</h2>
             <h2>Where We Work</h2>
