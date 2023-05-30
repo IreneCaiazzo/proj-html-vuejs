@@ -22,7 +22,7 @@
         </div>
 
         <div class="jumbo">
-
+            <img src="../../img/video_law_home_preview.jpg" alt="">
         </div>
 
     </header>
@@ -36,8 +36,8 @@
 }
 
 header {
-    position: fixed;
-    top: 0;
+    /* position: fixed;
+    top: 0; */
     width: 100%;
     height: 8rem;
     margin: auto;
@@ -55,9 +55,10 @@ li {
     margin-left: 1rem;
 }
 
-.jumbo {
-    height: 38rem;
-    background-image: url('../../img/video_law_home_preview.jpg');
-    background-position: center;
+header .jumbo img {
+    width: 100%;
+    max-height: 35rem;
+    display: block;
+    object-fit: cover;
 }
 </style>
