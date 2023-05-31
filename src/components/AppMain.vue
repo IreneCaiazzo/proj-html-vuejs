@@ -214,6 +214,7 @@ export default {
     align-items: center;
     gap: 1rem;
     padding: 0 2rem;
+    width: 300px;
     background-color: #f5f5f5;
 }
 
