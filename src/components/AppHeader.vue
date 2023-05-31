@@ -39,8 +39,7 @@ header {
     /* position: fixed;
     top: 0; */
     width: 100%;
-    height: 8rem;
-    margin: auto;
+    margin: 0 auto;
 }
 
 header .container {
@@ -57,7 +56,7 @@ li {
 
 header .jumbo img {
     width: 100%;
-    max-height: 35rem;
+    height: 20rem;
     display: block;
     object-fit: cover;
 }
