@@ -27,26 +27,26 @@ const sec1 = [
 
 const sec2 = [
     {
-        id: 1,
-        icon: '<font-awesome-icon icon="fa-solid fa-check" />',
+        id: 4,
+        icon: 'fas fa-check',
         title: 'A GLOBAL VIEW',
         paragraph: 'Quae molestiae, mollitia repellat aut accusamus debitis deleniti nemo cum vitae voluptates dicta dolores nihil aperiam minus!'
     },
     {
-        id: 2,
-        icon: '<font-awesome-icon icon="fa-solid fa-check" />',
+        id: 5,
+        icon: 'fas fa-check',
         title: 'EXPERT LAWYERS',
         paragraph: 'Quae molestiae, mollitia repellat aut accusamus debitis deleniti nemo cum vitae voluptates dicta dolores nihil aperiam minus!'
     },
     {
-        id: 3,
-        icon: '<font-awesome-icon icon="fa-solid fa-check" />',
+        id: 6,
+        icon: 'fas fa-check',
         title: 'CLIENT FOCUS',
         paragraph: 'Quae molestiae, mollitia repellat aut accusamus debitis deleniti nemo cum vitae voluptates dicta dolores nihil aperiam minus!'
     },
     {
-        id: 4,
-        icon: '<font-awesome-icon icon="fa-solid fa-check" />',
+        id: 7,
+        icon: 'fas fa-check',
         title: 'LOCAL KNOWLEDGE',
         paragraph: 'Quae molestiae, mollitia repellat aut accusamus debitis deleniti nemo cum vitae voluptates dicta dolores nihil aperiam minus!'
     },
@@ -172,4 +172,4 @@ const sec6 = [
     },
 ];
 
-export default sec1; sec2; ourPeople; ourPracticeAreas; ourPublications; sec6;
+export default { sec1, sec2, ourPeople, ourPracticeAreas, ourPublications, sec6, }

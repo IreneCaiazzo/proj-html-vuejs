@@ -1,11 +1,17 @@
 <script>
 
-import sec1 from '../../data';
+import data from '../../data';
+
 
 export default {
     data() {
         return {
-            sec1,
+            sec1: data.sec1,
+            sec2: data.sec2,
+            ourPeople: data.ourPeople,
+            ourPracticeAreas: data.ourPracticeAreas,
+            ourPublications: data.ourPublications,
+            sec6: data.sec6,
         };
     },
 };
@@ -13,6 +19,7 @@ export default {
 </script>
 
 <template>
+    <!-- first section -->
     <section class="firstSec">
         <div class="container">
             <div class="card text-center" style="width: 25rem; border-top: 3px solid #55A098; padding: 1.5rem 3rem;"
@@ -26,14 +33,28 @@ export default {
             </div>
         </div>
     </section>
+
+    <!-- second section -->
+    <section class="secondSec">
+        <div class="container">
+            <div class="shortP" style="width: calc(100% / 3); padding:1rem; text-align: center;" v-for="shortP in sec2"
+                :key="shortP.id">
+                <i :class="[shortP.icon]" style="font-size: 1.5rem; color:#55A098; margin-bottom: 1rem;"></i>
+                <h5>{{ shortP.title }}</h5>
+                <p>{{ shortP.paragraph }}</p>
+            </div>
+        </div>
+    </section>
 </template>
 
 <style scoped>
+/* first section */
 .firstSec {
     background-color: #f5f5f5;
 }
 
-.firstSec .container {
+.firstSec .container,
+.secondSec .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,4 +67,6 @@ export default {
     --bs-card-border-radius: 0;
     --bs-card-border-top: 3px solid #55A098;
 }
+
+/* second section  */
 </style>
