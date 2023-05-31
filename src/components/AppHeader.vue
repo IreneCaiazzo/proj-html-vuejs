@@ -6,6 +6,17 @@
     <header>
 
         <div class="container">
+            <span>Avada & Associates legal team announce deal to open up oil & gas</span>
+
+            <div class="social">
+                <font-awesome-icon icon="fa-brands fa-square-facebook" />
+                <font-awesome-icon icon="fa-brands fa-square-twitter" />
+                <font-awesome-icon icon="fa-brands fa-square-instagram" />
+                <font-awesome-icon icon="fa-brands fa-square-youtube" />
+            </div>
+        </div>
+
+        <div class="container-2">
             <div class="logo">
                 <img src="../../img/avada-law-logo.png" alt="">
             </div>
@@ -45,7 +56,26 @@ header {
 header .container {
     display: flex;
     justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    font-weight: 100;
+    font-size: small;
+    color: black;
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+    font-size: large;
+    color: #55A098;
+}
+
+header .container-2 {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    width: 1200px;
+    margin: 0 auto;
     padding: 2rem 0;
 }
 
