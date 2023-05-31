@@ -153,19 +153,19 @@ const ourPublications = [
 
 const sec6 = [
     {
-        id: 1,
+        id: 26,
         img: 'img/law_7.jpg',
         title: 'INTERNATIONAL',
         paragraph: 'Quae molestiae, mollitia repellat aut accusamus debitis deleniti nemo cum vitae voluptates dicta dolores nihil aperiam minus!',
     },
     {
-        id: 2,
+        id: 27,
         img: 'img/law_8.jpg',
         title: 'PARTNERSHIP',
         paragraph: 'Quae molestiae, mollitia repellat aut accusamus debitis deleniti nemo cum vitae voluptates dicta dolores nihil aperiam minus!',
     },
     {
-        id: 3,
+        id: 28,
         img: 'img/law_3.jpg',
         title: 'EXCELLENCE',
         paragraph: 'Quae molestiae, mollitia repellat aut accusamus debitis deleniti nemo cum vitae voluptates dicta dolores nihil aperiam minus!',

@@ -107,6 +107,20 @@ export default {
             <h6>Nigel Rawlison &middot; Senior partner</h6>
         </div>
     </section>
+
+    <!-- sixth section -->
+
+    <section class="sixthSec">
+        <div class="container">
+            <div class="card" style="width: 18rem; border-top: 3px solid #55A098;" v-for="card in sec6" :key="card.id">
+                <img :src="[card.img]" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ card.title }}</h5>
+                    <p class="card-text">{{ card.paragraph }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </template>
 
 <style scoped>
@@ -122,7 +136,7 @@ export default {
     align-items: center;
     width: 1200px;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 6rem 0;
 }
 
 .card {
@@ -237,5 +251,23 @@ export default {
 
 .fifthSec img {
     width: 15%;
+}
+
+/* sixth section */
+
+.sixthSec .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.sixthSec img {
+    border-radius: 0%;
+    padding: 2rem;
+}
+
+.sixthSec h5 {
+    margin-bottom: 1rem;
 }
 </style>
