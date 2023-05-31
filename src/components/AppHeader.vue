@@ -58,6 +58,7 @@ header .container {
     justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
+    padding-top: 1rem;
     font-weight: 100;
     font-size: small;
     color: black;
