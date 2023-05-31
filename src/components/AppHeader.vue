@@ -6,7 +6,7 @@
     <header>
 
         <div class="container">
-            <span>Avada & Associates legal team announce deal to open up oil & gas</span>
+            <span class="company">Avada & Associates legal team announce deal to open up oil & gas</span>
 
             <div class="social">
                 <font-awesome-icon icon="fa-brands fa-square-facebook" />
@@ -62,6 +62,10 @@ header .container {
     font-weight: 100;
     font-size: small;
     color: black;
+}
+
+.company {
+    color: lightslategray;
 }
 
 .social {

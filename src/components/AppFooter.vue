@@ -20,7 +20,7 @@
                 <h6>CALL OUR EXPERTS TODAY 1.800.555.6789</h6>
             </div>
             <div class="copyAndSocial">
-                <span>
+                <span class="copy">
                     &copy; Copyright 2012-2020 | Avada Theme by Theme Fusion | All Rights Reserved | Powered by
                     WordPress
                 </span>
@@ -62,6 +62,7 @@ footer .container-2 {
     font-weight: 100;
     font-size: small;
     color: black;
+    padding: 1rem 0;
 }
 
 footer .title {
@@ -79,6 +80,10 @@ button {
 .copyAndSocial {
     display: flex;
     justify-content: space-between;
+}
+
+.copy {
+    color: lightslategray;
 }
 
 .social {
