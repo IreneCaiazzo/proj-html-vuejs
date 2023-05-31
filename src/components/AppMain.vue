@@ -45,6 +45,14 @@ export default {
             </div>
         </div>
     </section>
+
+    <!-- third section -->
+    <section class="thirdSec">
+        <div class="container">
+            <h3>QUESTIONS ABOUT A JUDICIAL ISSUE? ASK OUR EXPERTS.</h3>
+            <a href="#" class="btn" style="background-color: #61ACA5; color: white; border-radius: 3px;">ASK AN EXPERT</a>
+        </div>
+    </section>
 </template>
 
 <style scoped>
@@ -68,5 +76,18 @@ export default {
     --bs-card-border-top: 3px solid #55A098;
 }
 
-/* second section  */
+/* third section */
+
+.thirdSec {
+    background-color: #55A098;
+    color: white;
+    padding: 4rem 2rem;
+}
+
+.thirdSec .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
 </style>
