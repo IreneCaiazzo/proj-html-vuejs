@@ -62,12 +62,12 @@ footer .container-2 {
     font-weight: 100;
     font-size: small;
     color: black;
-    padding: 1rem 0;
+    padding: 3rem 0;
 }
 
 footer .title {
-
     border-bottom: 1px solid white;
+
 }
 
 button {
@@ -89,7 +89,7 @@ button {
 .social {
     display: flex;
     gap: 1rem;
-    font-size: large;
+    font-size: x-large;
     color: #55A098;
 }
 </style>

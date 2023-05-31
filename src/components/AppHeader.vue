@@ -71,7 +71,7 @@ header .container {
 .social {
     display: flex;
     gap: 1rem;
-    font-size: large;
+    font-size: x-large;
     color: #55A098;
 }
 
