@@ -54,32 +54,32 @@ const sec2 = [
 
 const ourPeople = [
     {
-        id: 1,
+        id: 8,
         img: 'img/column1-image1.jpg',
         name: 'Deborah Brown',
     },
     {
-        id: 2,
+        id: 9,
         img: 'img/column1-image2.jpg',
         name: 'Allen Lucas',
     },
     {
-        id: 3,
+        id: 10,
         img: 'img/column1-image3.jpg',
         name: 'Muriel Potter',
     },
     {
-        id: 4,
+        id: 11,
         img: 'img/column1-image4.jpg',
         name: 'Ken Douglas',
     },
     {
-        id: 5,
+        id: 12,
         img: 'img/column1-image5.jpg',
         name: 'Loretta Harris',
     },
     {
-        id: 6,
+        id: 13,
         img: 'img/column1-image6.jpg',
         name: 'Phil Russell',
     },
@@ -87,32 +87,32 @@ const ourPeople = [
 
 const ourPracticeAreas = [
     {
-        id: 1,
+        id: 14,
         img: 'img/column2-image1.jpg',
         name: 'Tax Litigation',
     },
     {
-        id: 2,
+        id: 15,
         img: 'img/column2-image2.jpg',
         name: 'Acquisitions',
     },
     {
-        id: 3,
+        id: 16,
         img: 'img/column2-image3.jpg',
         name: 'Financial Advice',
     },
     {
-        id: 4,
+        id: 17,
         img: 'img/column2-image4.jpg',
         name: 'International',
     },
     {
-        id: 5,
+        id: 18,
         img: 'img/column2-image5.jpg',
         name: 'Oil and Gas',
     },
     {
-        id: 6,
+        id: 19,
         img: 'img/column2-image6.jpg',
         name: 'Capital Markets',
     },
@@ -120,32 +120,32 @@ const ourPracticeAreas = [
 
 const ourPublications = [
     {
-        id: 1,
+        id: 20,
         img: 'img/column3-image1.jpg',
         name: 'Low Oil Prices',
     },
     {
-        id: 2,
+        id: 21,
         img: 'img/column3-image2.jpg',
         name: 'Cost of Divorce',
     },
     {
-        id: 3,
+        id: 22,
         img: 'img/column3-image3.jpg',
         name: '2015 Tax Laws',
     },
     {
-        id: 4,
+        id: 23,
         img: 'img/column3-image4.jpg',
         name: 'Surveys Matter',
     },
     {
-        id: 5,
+        id: 24,
         img: 'img/column3-image5.jpg',
         name: 'In-House Work',
     },
     {
-        id: 6,
+        id: 25,
         img: 'img/column3-image6.jpg',
         name: 'Obama Care',
     },

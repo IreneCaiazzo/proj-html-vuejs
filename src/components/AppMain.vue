@@ -54,6 +54,49 @@ export default {
         </div>
     </section>
 
+    <!-- fourth section -->
+    <section class="fourthSec">
+
+        <h3>GLOBAL CHALLENGE. WORLD CLASS RESPONSE</h3>
+
+        <div class="container">
+
+            <div class="subcontainer">
+
+                <h5>OUR PEOPLE</h5>
+                <div class="tag tag_container" v-for="tag in ourPeople" :key="tag.id">
+                    <div class="tag-content">
+                        <img :src="[tag.img]" alt="">
+                        <h6>{{ tag.name }}</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subcontainer">
+
+                <h5>OUR PRACTICE AREAS</h5>
+                <div class="tag tag2 tag_container" v-for="tag2 in ourPracticeAreas" :key="tag2.id">
+                    <div class="tag-content">
+                        <img :src="[tag2.img]" alt="">
+                        <h6>{{ tag2.name }}</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subcontainer">
+                <h5>OUR PUBLICATIONS</h5>
+
+                <div class="tag tag3 tag_container" v-for="tag3 in ourPublications" :key="tag3.id">
+                    <div class="tag-content">
+                        <img :src="[tag3.img]" alt="">
+                        <h6>{{ tag3.name }}</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <!-- fifth section -->
     <section class="fifthSec">
         <div class="container">
@@ -100,6 +143,81 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 1200px;
+}
+
+/* fourth section */
+
+.fourthSec {
+    padding: 4rem 0;
+}
+
+.fourthSec h3 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* .fourthSec h3::after {
+    content: "";
+    width: 5rem;
+    height: 1px;
+    color: black;
+} */
+
+.fourthSec .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.subcontainer {
+    flex-basis: 30%;
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.tag_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.tag,
+.tag2,
+.tag3 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+
+}
+
+.tag-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+    background-color: #f5f5f5;
+}
+
+.tag img,
+.tag2 img,
+.tag3 img {
+    display: block;
+    width: 100px;
+    padding: 1rem;
+}
+
+.tag h6,
+.tag2 h6,
+.tag3 h6 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
 }
 
 /* fifth section */
