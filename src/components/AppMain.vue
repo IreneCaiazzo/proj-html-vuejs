@@ -53,6 +53,17 @@ export default {
             <a href="#" class="btn" style="background-color: #61ACA5; color: white; border-radius: 3px;">ASK AN EXPERT</a>
         </div>
     </section>
+
+    <!-- fifth section -->
+    <section class="fifthSec">
+        <div class="container">
+            <img src="../../img/envato-logo.png" alt="">
+            <p style="font-style: italic;">"We have worked with Avada Law for the past 15 years. As we have grown and
+                evolved, what I have valued most
+                about our relationship is that Avada Law know us and our business"</p>
+            <h6>Nigel Rawlison &middot; Senior partner</h6>
+        </div>
+    </section>
 </template>
 
 <style scoped>
@@ -89,5 +100,24 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 1200px;
+}
+
+/* fifth section */
+
+.fifthSec {
+    background-image: url('../../img/showeare-parallax.jpg');
+    background-position: center;
+    color: white;
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.fifthSec img,
+.fifthSec p {
+    margin-bottom: 1rem;
+}
+
+.fifthSec img {
+    width: 15%;
 }
 </style>
